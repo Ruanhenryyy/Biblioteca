@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Model.cadastro&apos; to &apos;Cadastro&apos;&#x0D;&#x0A;- Original project: &apos;Biblioteca&apos;&#x0D;&#x0A;- Original element: &apos;Model.cadastro&apos;&#x0D;&#x0A;- Renamed element: &apos;Model.Cadastro&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;cadastro&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Model{cadastro.java[cadastro" matchStrategy="1" name="Cadastro" qualified="false" references="true" similarDeclarations="false" stamp="1753799572109" textual="false" version="1.0"/>
+</session>

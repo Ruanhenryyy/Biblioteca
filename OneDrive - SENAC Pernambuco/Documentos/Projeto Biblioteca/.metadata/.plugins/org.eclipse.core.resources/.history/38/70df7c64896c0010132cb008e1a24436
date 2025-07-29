@@ -1,0 +1,59 @@
+package Model;
+
+
+import Model.Despesa;
+import java.util.ArrayList;
+import java.util.List;
+
+public class Biblioteca {
+	
+	private List<Despesa> despesas;
+	private List<Cliente> clientes;
+	private List<Funcionario> funcionarios;
+	List<Livro> livros;
+	String cnpj;
+	String telefone;
+	String endereco;
+	
+	public Biblioteca(String cnpj, String telefone, String endereco) {
+		this.cnpj = cnpj;
+		this.telefone = telefone;
+		this.endereco = endereco;
+		
+		despesas = new ArrayList<>();
+		clientes = new ArrayList<>();
+		funcionarios = new ArrayList<>();
+		livros = new ArrayList<>();
+	}
+	
+	private void adicionarDespesa(String nome, String descricao, double valor) {
+		despesas.add(new Despesa(nome, descricao, valor));
+		System.out.println("Despesa adicionada a lista");
+	}
+	
+	private void removerDespesa(String nome) {
+		
+	}
+	private void adicionarcliente(String nome, String cpf, String endereco, int idade) {
+		clientes.add(new Cliente(nome,cpf,endereco,idade));
+	}
+	
+	private void removercliente(String cpf) {
+		
+	}
+	private void adicionarFuncionario() {
+		
+	}
+	
+	private void removerFuncionario(String cpf) {
+		
+	}
+	private void adicionarLivro() {
+		
+	}
+	
+	private void removerLivro(String nome) {
+		
+	}
+	
+}

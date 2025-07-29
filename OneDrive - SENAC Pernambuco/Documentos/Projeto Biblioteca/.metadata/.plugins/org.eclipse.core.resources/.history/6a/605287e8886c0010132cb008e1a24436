@@ -1,0 +1,14 @@
+package Model;
+
+public class cadastro {
+	
+	private String nome;
+	private String cpf;
+	private String endereco;
+	private int idade;
+	
+	public cadastro() {
+		// TODO Auto-generated constructor stub
+	}
+	
+}

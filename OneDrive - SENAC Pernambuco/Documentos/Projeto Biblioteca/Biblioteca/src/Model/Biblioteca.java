@@ -1,7 +1,6 @@
 package Model;
 
 
-import Model.Despesa;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -71,12 +70,13 @@ public class Biblioteca {
 	}
 	
 	void removerLivro(int numeroDeSerie) {
-		for(Livro livro : livros) {
-			if(livro.getNumeroDeSerie() == numeroDeSerie) {
+		for (Livro livro : livros) {
+			if (livro.getNumeroDeSerie() == numeroDeSerie) {
 				livros.remove(livro);
 				System.out.println("livro: " + livro + ", removido do sistema!");
 			}
 		}
 	}
+	//sosf
 	
 }

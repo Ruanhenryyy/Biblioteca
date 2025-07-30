@@ -24,3 +24,8 @@ Este projeto é um sistema de gerenciamento de biblioteca desenvolvido em Java. 
 
 ![Jhabooks](https://i.pinimg.com/736x/f2/a0/f2/f2a0f2507adbef355ec58cfeeacef71e.jpg)
 
+## Screenshots
+
+![começo da class iblioteca](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+![Classe main](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
